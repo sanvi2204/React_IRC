@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href ="react.css">
+</head>
+<body>
+    <nav 
+<center>
+    <div class="topnav">
+        <i class="fall"></i>
+        <button><a href="react.html">Sign Up</a></button>
+    </div>
+
+</center>
+
+    <form class="container shadow">
+       
+        <input type ="password" name ="" id="" placeholder="Password" class="auth-input">
+        <input type ="password" name ="" id="" placeholder="Confirm Password" class="auth-input">
+        <input type ="submit" value ="Register" class="auth-btn">
+
+    </form>  
+    
+</body>
+<script>
+    function register()
+    {
+        Let x=document.getElementById("username").value;
+        Let m1=document.getElementById("pwd").value;
+        Let m2=document.getElementById("cpwd").value;
+        if(confirm("sure ?"))
+        {
+            if(m1 == m2)
+            {
+                alert("Password matched");
+                alert("registered "+x)
+            }
+            else{
+                alert("Mismatched")
+            }
+        }
+        else{
+            alert("Failed")
+        }
+    }
+  
+</script>
+</html>
