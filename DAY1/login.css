@@ -127,6 +127,16 @@ a:link {
   background-color: rgb(153, 124, 203);
   color: black;
 }
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #444;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
 
 .topnav a.active {
   background-color: #04AA6D;
